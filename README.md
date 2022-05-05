@@ -30,7 +30,13 @@ To install this application, enter the following command into your terminal:
 npm i
 ```
 
-Additionally, you'll need to enter your mysql username and password into the '.env.EXAMPLE' file in the root folder and rename the file to '.env'.
+Additionally, you'll need to enter your mysql username and password into the '.env.EXAMPLE' file in the root folder and rename the file to '.env'. Then to initialize the creation of the database, run the following script:
+
+```md
+npm run resetdb
+```
+
+You'll be prompted to enter your mysql2 password. Once entered, it'll create the schema.
 
 To use the provided seed data, run the following command in your terminal, or feel free to seed with your own test data:
 
@@ -43,8 +49,8 @@ npm run seed
 
 - JavaScript
 - Node.js
-- mysql2
-- sequelize
+- MySQL2
+- Sequelize
 
 
 ## Usage
