@@ -4,7 +4,8 @@
 
 ## Deployed Site
 
-[Deployed Site](https://framenolan.github.io/ecommerce-backend)
+[Deployed Site]( https://enigmatic-tor-94718.herokuapp.com/)
+[GitHub Repo](https://github.com/framenolan/ecommerce-backend)
 
 ## Table of Contents
 * [Description](#description)
@@ -20,7 +21,7 @@
 
 ## Description
 
-With some provided starter code for the front end, this app provides the back end code to manage the catalogue of an e-commerce store.
+With some provided starter code and a focus just on the back-end data, this app provides the code to manage the catalogue of an e-commerce store. Products, product categories, and tags can be created, read, updated, or deleted using routes.
 
 ## Installation
 
@@ -30,7 +31,9 @@ To install this application, enter the following command into your terminal:
 npm i
 ```
 
-Additionally, you'll need to enter your mysql username and password into the '.env.EXAMPLE' file in the root folder and rename the file to '.env'. Then to initialize the creation of the database, run the following script:
+Additionally, you'll need to enter your mysql username and password into the '.env.EXAMPLE' file in the root folder and rename the file to '.env'.
+
+To initialize the creation of the database, run the following script:
 
 ```md
 npm run resetdb
@@ -47,33 +50,39 @@ npm run seed
 
 ## Technologies
 
-- JavaScript
-- Node.js
-- MySQL2
-- Sequelize
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Node.js](https://nodejs.org/)
+- [MySQL2](https://www.npmjs.com/package/mysql2)
+- [Sequelize](https://www.npmjs.com/package/sequelize)
+- [Dotenv](https://www.npmjs.com/package/dotenv)
 
 
 ## Usage
 
+To start the app, enter the following command in your terminal:
 
+```md
+npm start
+```
+
+As the code stands, there's no front-end integration so all rountes must be accessed through a URL or route-testing client (such as Insomnia). Below are a couple of screenshots and a screencaptured video of each route being tested in Insomnia.
+
+![screenshot of Get All Products route](./Assets/Get-All-Products.png)
+![screenshot of Create Category route](./Assets/Create-Category.png)
+
+[Screenshare Video Walkthrough](https://drive.google.com/file/d/12WO1awL6CDBrN0yedtAn35PcNTpU_keh/view)
 
 ## Future Development
+
+Currently there are no plans for future development.
 
 ## Credits
 
 - Nolan Frame
 
-## Contributing
-
-
-
-## Tests
-
-
-
 ## Questions
 
-Please checkout [https://github.com/framenolan/](https://github.com/framenolan/) or email me at [](mailto:).
+Please checkout [https://github.com/framenolan/](https://github.com/framenolan/).
 
 ## License
 
