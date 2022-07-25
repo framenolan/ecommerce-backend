@@ -66,7 +66,7 @@ To start the app, enter the following command in your terminal:
 npm start
 ```
 
-As the code stands, there's no front-end integration so all rountes must be accessed through a URL or route-testing client (such as Insomnia). Below are a couple of screenshots and a screencaptured video of each route being tested in Insomnia.
+As the code stands, there's no front-end integration so all routes must be accessed through a URL or route-testing client (such as Insomnia). Below are a couple of screenshots and a screencaptured video of each route being tested in Insomnia.
 
 ![screenshot of Get All Products route](./Assets/Get-All-Products.png)
 ![screenshot of Create Category route](./Assets/Create-Category.png)
